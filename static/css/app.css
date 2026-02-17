@@ -1,10 +1,51 @@
+/* Page background with gradient */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+    color: #333;
+    line-height: 1.7;
+    margin: 0;
+    padding: 40px 20px;
 }
 
+/* Center container with shadow and rounded corners */
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading style */
+h1 {
+    color: #1a237e;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 18px;
+    text-align: justify;
+    color: #424242;
+    margin-bottom: 30px;
+}
+
+/* Image styling with hover effect */
+img {
+    display: block;
+    margin: 0 auto 25px auto;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
 }
